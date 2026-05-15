@@ -21,7 +21,7 @@ console.log((session))
                 authorization:`Bearer ${token}` 
             }
             })
-    const bookings =await res.json
+    const bookings =await res.json 
     console.log(bookings);
 
     return (
